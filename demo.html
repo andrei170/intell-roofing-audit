@@ -99,6 +99,12 @@
   .stp b{display:block;font-size:16px;margin-bottom:4px}
   .stp span{font-size:14px;color:var(--grey)}
 
+  .revgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:900px){.revgrid{grid-template-columns:1fr}}
+  .rev{background:var(--paper);border:1px solid var(--line-d);border-top:3px solid var(--teal);border-radius:4px;padding:24px 22px;display:flex;flex-direction:column}
+  .rev p{font-family:var(--serif);font-size:16.5px;line-height:1.55;color:var(--ink);margin-bottom:16px}
+  .rev .who{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey);font-weight:600;margin-top:auto}
+
   .gal{background:var(--deep);color:#fff}
   .gal .sechead .eyebrow{color:var(--sand)}
   .gal .sechead h2{color:#fff}
@@ -151,7 +157,7 @@
       <h1>Damp found on your survey?<br><em>You have a deadline.</em></h1>
       <p class="lede">If a valuer flagged damp, your lender may be holding back part of the mortgage until it is treated. That needs a survey, a costed remedial specification and a guarantee, usually inside a matter of weeks. We survey across Medway and put the paperwork in your solicitor's hands.</p>
       <div class="credrow">
-        <div class="cred">Checkatrade <b>9.95</b> rated</div>
+        <div class="cred">Checkatrade <b>9.94</b> from 59 reviews</div>
         <div class="cred">Rising damp · Penetrating damp</div>
         <div class="cred">Tanking &amp; cavity drain</div>
         <div class="cred">Medway · Chatham · Rochester</div>
@@ -186,7 +192,8 @@
 
 <div class="trust">
   <div class="wrap trustin">
-    <div class="ti"><div class="n">9.95</div><div class="l">Checkatrade Rated</div></div>
+    <div class="ti"><div class="n">9.94</div><div class="l">Checkatrade, 59 Reviews</div></div>
+    <div class="ti"><div class="n">5.0</div><div class="l">Bark, 20 Reviews</div></div>
     <div class="ti"><div class="n">Medway</div><div class="l">Local, Not National</div></div>
     <div class="ti"><div class="n">Survey First</div><div class="l">Diagnosis Before Quote</div></div>
     <div class="ti"><div class="n">Written Spec</div><div class="l">For Your Solicitor</div></div>
@@ -265,6 +272,30 @@
       <div class="stp"><div class="num">2</div><div><b>Written report and specification</b><span>A costed remedial spec your solicitor and lender can work from.</span></div></div>
       <div class="stp"><div class="num">3</div><div><b>The work carried out</b><span>Scheduled around your completion date wherever possible.</span></div></div>
       <div class="stp"><div class="num">4</div><div><b>Guarantee issued</b><span>Documentation for the lender so the retained funds can be released.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sechead center">
+      <div class="eyebrow">What customers say</div>
+      <h2>Seventy-nine reviews. These are the damp ones.</h2>
+      <p>Every word below is copied exactly as the customer wrote it, from our public Checkatrade and Bark profiles.</p>
+    </div>
+    <div class="revgrid">
+      <div class="rev">
+        <p>"Had basement damp issue it was resolved by Jimmy and his team really pleased with the results would recommend"</p>
+        <span class="who">M Hodgkinson · Bark · April 2024</span>
+      </div>
+      <div class="rev">
+        <p>"Recently had damp proof work's completed by Intell , very courteous and polite friendly work force , cleaned up every evening and left spotless, work completed was very professional and now that it's finished blended in well as advised by the director of the company. Would recommend to family and friends"</p>
+        <span class="who">Antony Chadwick · Bark · March 2024</span>
+      </div>
+      <div class="rev">
+        <p>"I found Intell Roofing &amp; Building Ltd incredibly professional to deal with at all times. They were prompt and communicated clearly with me. They did a fantastic job of damp proofing my roof at a very affordable price. Highly recommend."</p>
+        <span class="who">Jamie Ingram · Bark · March 2024</span>
+      </div>
     </div>
   </div>
 </section>
